@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telomeres</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVIGATION ─── -->
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="assets/logo_transparent.png" alt="Telomeres" class="nav-logo-img" /></a>
+        <ul class="nav-links">
+      <li><a href="#about" data-en="About" data-sk="O nás">About</a></li>
+      <li><a href="#fragrances" data-en="Fragrances" data-sk="Vône">Fragrances</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="https://instagram.com/telomeresbrand" class="nav-ig" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <button class="lang-toggle" id="langToggleNav" aria-label="Toggle language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-sk">SK</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <img src="assets/logo_transparent.png" alt="Telomeres" class="hero-logo fade-in" />
+    <p class="hero-tagline fade-in" data-en="beauty in decay." data-sk="beauty in decay.">beauty in decay.</p>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <p class="section-label fade-in" data-en="01 — About" data-sk="01 — O nás">01 — About</p>
+    <div class="about-text">
+      <p class="fade-in" data-en="Telomeres are the protective caps on our chromosomes that shorten with every cell division. When they shrink below a certain threshold, the cell can no longer survive. They are one of the fundamental mechanisms of ageing, invisible clocks that never stop ticking." data-sk="Teloméry sú ochranné konce našich chromozómov, ktoré sa pri každom delení buniek skracujú. Keď sa skrátia pod určitú hranicu, bunka nedokáže naďalej existovať. Sú jedným zo základných mechanizmov starnutia. Teloméry sú ako hodiny, ktoré nevidíme, no neustále tikajú.">Telomeres are the protective caps on our chromosomes that shorten with every cell division. When they shrink below a certain threshold, the cell can no longer survive. They are one of the fundamental mechanisms of ageing, invisible clocks that never stop ticking.</p>
+      <p class="fade-in" data-en="When I first learned about them, I realized how precisely they capture the world around us. Everything changes and slowly fades — the color of flowers in a vase, the smoke from a blown-out candle, the scent of someone we love." data-sk="Keď som sa o nich prvýkrát dozvedel, uvedomil som si, ako presne vystihujú svet okolo nás. Všetko sa mení a pomaly stráca – farba kvetov vo váze, dym po sfúknutej sviečke, vôňa človeka, ktorého milujeme.">When I first learned about them, I realized how precisely they capture the world around us. Everything changes and slowly fades — the color of flowers in a vase, the smoke from a blown-out candle, the scent of someone we love.</p>
+      <p class="fade-in" data-en="I have been making perfumes for over two years. What fascinates me the most about fragrances is elusiveness. Scents evolve, fade, and eventually disappear. They cannot be held or preserved. We must experience them while they're still here." data-sk="Parfumérstvu sa venujem viac ako dva roky. Na vôňach ma najviac fascinuje ich pominuteľnosť. Neustále sa vyvíjajú, slabnú a napokon sa stratia. Nedajú sa uchopiť ani uchovať. Musíme ich vnímať, kým tu sú.">I have been making perfumes for over two years. What fascinates me the most about fragrances is elusiveness. Scents evolve, fade, and eventually disappear. They cannot be held or preserved. We must experience them while they're still here.</p>
+      <p class="fade-in" data-en="Telomeres is a brand about finding beauty in impermanence. Not about mourning the fact that things fade, but about the attention they deserve for the very reason that they will soon be gone." data-sk="Telomeres je značka o hľadaní krásy v pominuteľnosti. Nie o smútku z toho, že veci netrvajú, ale o pozornosti, ktorú si zaslúžia práve preto, že raz zmiznú.">Telomeres is a brand about finding beauty in impermanence. Not about mourning the fact that things fade, but about the attention they deserve for the very reason that they will soon be gone.</p>
+    </div>
+  </section>
+
+  <!-- ─── FRAGRANCES ─── -->
+  <section id="fragrances">
+    <div class="fragrances-header fade-in">
+      <p class="section-label" data-en="02 — Fragrances" data-sk="02 — Vône">02 — Fragrances</p>
+      <h2 data-en="The collection." data-sk="Kolekcia.">The collection.</h2>
+    </div>
+
+    <div class="fragrance-grid">
+
+      <a href="orlando/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 01</p>
+        <h3 class="fragrance-name">Orlando</h3>
+        <p class="fragrance-desc" data-en="An ode to Sicily. Citrus, sea breeze and the quiet whisper of white amber." data-sk="Spomienka na Sicíliu. Citrusy, morský vánok a šepot bielej ambry.">An ode to Sicily. Citrus, sea breeze and the quiet whisper of white amber.</p>
+      </a>
+
+      <a href="longing/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 02</p>
+        <h3 class="fragrance-name">Longing</h3>
+        <p class="fragrance-desc" data-en="Desire, passion and their afterglow. The trace of closeness that lingers even after farewell." data-sk="Túžba, vášeň a jej dozvuk. Stopa blízkosti, ktorá pretrváva aj po rozlúčke.">Desire, passion and their afterglow. The trace of closeness that lingers even after farewell.</p>
+      </a>
+
+      <a href="unregulated/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 03</p>
+        <h3 class="fragrance-name">Unregulated</h3>
+        <p class="fragrance-desc" data-en="Built with banned materials. Patchouli, lily of the valley, musk — a reminder of when perfumers worked without limits." data-sk="Postavený na zakázaných látkach. Pačuli, konvalinka, pižmo – pripomienka čias, keď sa tvorilo bez obmedzení.">Built with banned materials. Patchouli, lily of the valley, musk — a reminder of when perfumers worked without limits.</p>
+      </a>
+
+      <a href="unregulated-noir/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 04</p>
+        <h3 class="fragrance-name">Unregulated Night</h3>
+        <p class="fragrance-desc" data-en="Where Unregulated is light and clean, Night is deep, dark and intense. Cocoa, coffee, tobacco, oud." data-sk="Tam, kde je Unregulated svetlý, Night je hlboký a temný. Kakao, káva, tabak, oud.">Where Unregulated is light and clean, Night is deep, dark and intense. Cocoa, coffee, tobacco, oud.</p>
+      </a>
+
+      <a href="cherry-promise/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 05</p>
+        <h3 class="fragrance-name">Cherry Promise</h3>
+        <p class="fragrance-desc" data-en="Born from love. Cherry, cream and a tenderness that never asks for too much." data-sk="Vôňa zrodená z lásky. Čerešňa, krém a neha, ktorá nikdy nepresahuje mieru.">Born from love. Cherry, cream and a tenderness that never asks for too much.</p>
+      </a>
+
+      <a href="pulse/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 06</p>
+        <h3 class="fragrance-name">Pulse</h3>
+        <p class="fragrance-desc" data-en="A bold citrus opening with aquatic depth. The energy of a classic blue fragrance — with more texture and character." data-sk="Výrazné citrusy s akvatickou hĺbkou. Energia klasického modrého parfumu — s viac textúry a charakteru.">A bold citrus opening with aquatic depth. The energy of a classic blue fragrance — with more texture and character.</p>
+      </a>
+
+      <a href="bare/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 07</p>
+        <h3 class="fragrance-name">Bare</h3>
+        <p class="fragrance-desc" data-en="Deliberately simple, remarkably clean. The feeling of bare skin and quiet elegance." data-sk="Zámerne jednoduchý, prekvapivo čistý. Pocit čistej pokožky a tichej elegancie.">Deliberately simple, remarkably clean. The feeling of bare skin and quiet elegance.</p>
+      </a>
+
+      <a href="oud-damascus/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 08</p>
+        <h3 class="fragrance-name">Oud Damascus</h3>
+        <p class="fragrance-desc" data-en="Natural oud from Cambodia, Turkish rose, saffron. Opulent, lasting, entirely its own." data-sk="Prírodný oud z Kambodže, turecká ruža, šafrán. Bohatý, trvalý, celkom jedinečný.">Natural oud from Cambodia, Turkish rose, saffron. Opulent, lasting, entirely its own.</p>
+      </a>
+
+      <a href="baca/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 09</p>
+        <h3 class="fragrance-name">Baca</h3>
+        <p class="fragrance-desc" data-en="A meadow, wool and hay. Raw, wearable and softly animalic to the very end." data-sk="Lúka, vlna a seno. Surový, nositeľný a mäkko animálny až do konca.">A meadow, wool and hay. Raw, wearable and softly animalic to the very end.</p>
+      </a>
+
+      <a href="rose/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 10</p>
+        <h3 class="fragrance-name">Rose</h3>
+        <p class="fragrance-desc" data-en="Not the flower. The feeling of the color — delicate, luminous and alive." data-sk="Nie kvet. Pocit farby – jemný, svetlý a živý.">Not the flower. The feeling of the color — delicate, luminous and alive.</p>
+      </a>
+
+      <a href="vetiver/index.html" class="fragrance-card fade-in">
+        <p class="fragrance-number">No. 11</p>
+        <h3 class="fragrance-name">Vetiver</h3>
+        <p class="fragrance-desc" data-en="Dry, faintly citrusy, extraordinarily complex. For those who already know." data-sk="Suchý, jemne citrusový, mimoriadne komplexný. Pre tých, ktorí už vedia.">Dry, faintly citrusy, extraordinarily complex. For those who already know.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <a href="https://instagram.com/telomeresbrand" class="footer-instagram" target="_blank" rel="noopener">@telomeresbrand</a>
+    <span class="footer-copy" data-en="© 2026 Telomeres" data-sk="© 2026 Telomeres">© 2026 Telomeres</span>
+    <button class="footer-lang" id="langToggleFooter" aria-label="Toggle language">
+      <span class="lang-en lang-active">EN</span>
+      <span class="lang-divider">/</span>
+      <span class="lang-sk">SK</span>
+    </button>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
